@@ -10,7 +10,7 @@ function onClickButton() {
   }
   let output = "";
   for (let i = 0; i < arr.length; i++) {
-    output += arr[i] + " x " + out[i] + "kg <br />";
+    output += arr[i] + " x " + out[i] + "kg|lbs <br />";
   }
   document.getElementById("out").innerHTML = output;
 }
